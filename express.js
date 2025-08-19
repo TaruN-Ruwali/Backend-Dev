@@ -3,8 +3,8 @@ const app = express();
 
 app.set('view engine', 'ejs');
 
-app.get('/',(req,res) => {
-    res.render("index");
+app.get('/', (req,res) => {
+    res.render("profile");
 })
 
 app.get('/about',(req,res) => {
